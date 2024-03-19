@@ -1,0 +1,63 @@
+.nav-pills {
+    background-color: rgb(193, 67, 67);
+    border-radius: 5px;
+}
+
+.nav-link {
+    color: black;
+}
+
+#nav-link-cream {
+    background-color:whitesmoke;
+    color: black;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.Initials {
+    font-family: 'Lucida Handwriting';
+}
+
+
+.About_me_title {
+    margin-left: 20px;
+}
+
+.About-Me-Blurb {
+    margin-right: 225px; /* Anything from 200px to 300px is okay. If you go over or under, this will make the paragraph go too far to the right. */
+    margin-left: 20px;
+    text-align-last:left;
+    text-align:justify;
+}
+
+.quote_container {
+    text-align:center;
+    border-style:groove;
+    border-color:rgb(193, 67, 67);
+    border-radius: 5px; /* This border radius is to round the corners of the border */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    background-color: rgb(193, 67, 67);
+    font-size: 25px;
+}
+
+#headingOne {
+    background-color: rgb(193, 67, 67);
+    color: black;
+}
+
+#accordian_color {
+    color:black;
+}
+
+.card-body {
+    background-color: blanchedalmond;
+}
+
+#headingTwo {
+    background-color: rgb(193, 67, 67);
+    color: black;
+}

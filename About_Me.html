@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 
+<body>
+    
 <div class="d-flex justify-content-between"><!-- This div class was to separate the initials  from the Navbar but still keep them on the same row  -->
     <div class="p-2">
 <ul class="nav nav-pills"> <!-- This was added throug bootstrap 4-->
     <li class="nav-item">
-      <a class="nav-link active" href="./About_Me.html">About Me</a>
+      <a class="nav-link active" href="./About_Me.html" id="nav-link-cream">About Me</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="http://127.0.0.1:5501/Projects.html#!">My Projects</a>
@@ -35,8 +37,8 @@
 
   <div class="d-flex justify-content-between"> <!-- This was added throug bootstrap -->
     <div class="p-2">
-        <h1>About Me</h1>
-        <p>
+        <h1 class="About_me_title">About Me</h1>
+        <p class="About-Me-Blurb">
             Hi, I'm Wilson Jean-Baptiste, a dedicated and innovative chemical engineer passionate about advancing sustainable technology and safety in engineering practices. With a solid foundation from Howard University, where I graduated Magna Cum Laude in Chemical Engineering and was an active member of the Omega Chi Epsilon Honor Society, my academic journey has been marked by a commitment to excellence and a deep curiosity for the intersection of science and technology.
         </p>
     </div>
@@ -53,7 +55,7 @@
     <div class="card">
       <div class="card-header" role="tab" id="headingOne">
         <h5 class="mb-0">
-          <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+          <a data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed" id="accordian_color">
             My Experience
           </a>
         </h5>
@@ -72,7 +74,7 @@
     <div class="card">
       <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
-          <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="accordian_color">
             My Goals
           </a>
         </h5>
@@ -80,7 +82,7 @@
       <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
         <div class="card-body">
           <ul class="ListOfGoals">
-            <p>TI was never one to believe in one singular life goal. Rather, life is about achieving one goal and moving onto the next as you grow. That being said, here are some of the goals That I have recently been working towards.</p>
+            <p class="list_of_goals_paragraph">I was never one to believe in one singular life goal. Rather, life is about achieving one goal and moving onto the next as you grow. That being said, here are some of the goals that I have recently been working towards:</p>
                 <li>Becoming a software engineer.</li>
                 <li>Becoming a business owner.</li>
                 <li>Retiring in my 30s.</li>
@@ -93,7 +95,7 @@
     <div class="card">
         <div class="card-header" role="tab" id="headingOne">
           <h5 class="mb-0">
-            <a data-toggle="collapse" href="#collapsethree" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
+            <a data-toggle="collapse" href="#collapsethree" aria-expanded="false" aria-controls="collapseOne" class="collapsed" id="accordian_color">
               My Personal Life
             </a>
           </h5>
@@ -111,7 +113,7 @@
   </div>
   
 
-  <body>
+  
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
