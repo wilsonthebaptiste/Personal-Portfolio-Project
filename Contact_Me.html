@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
       
@@ -21,7 +22,7 @@
           <a class="nav-link" href="http://127.0.0.1:5501/Projects.html#!">My Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="#!">My Socials</a>
+          <a class="nav-link active" href="#!" id="nav-link-cream">My Socials</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="http://127.0.0.1:5501/Gallery.html#!">Gallery</a>
@@ -34,7 +35,7 @@
       </div>
 
 
-<section>
+<section class="contact_me_section">
     <h1>CONTACT ME</h1>
     <p>I would love to speak with you. Find my information below. </p>
     </section>
@@ -42,18 +43,18 @@
     <section>
         <div class="d-flex flex-column">
             <div class="p-2">
-                <p>My Email</p>
+                <p class="email_paragraph">My Email</p>
                 wlsonjean.baptiste@gmail.com
             </div>
             <div class="p-2">
-                <p>LinkedIn</p>
                 <a href="https://www.linkedin.com/in/wilson-jean-baptiste/">My LinkedIn</a> <!-- Need to include the link to my LinkedIn next time-->
             </div>
           </div>
     </section>
 
 
-    <form> <!-- This was pulled from getbootstrap.com-->
+    <form action="https://formspree.io/f/mbjnazbj"
+    method="POST"> <!-- This was pulled from getbootstrap.com-->
         <div class="form-row">
           <div class="form-group col-md-4">
             <label for="inputFirstName">First Name</label>

@@ -91,3 +91,12 @@ margin-top: 25px;
 #project_3 {
     margin-top: 25px;
 }
+
+/* This is where the styling unique to the contact me page begins. */
+.contact_me_section {
+    margin-left: 15px;
+}
+
+.email_paragraph {
+    margin-bottom: -5px;
+}
