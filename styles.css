@@ -100,3 +100,11 @@ margin-top: 25px;
 .email_paragraph {
     margin-bottom: -5px;
 }
+
+/* This is where the styling unique to the gallery page begins. */
+
+.bd-example {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
