@@ -10,3 +10,6 @@ Technologies used:
 ]
 
 Ideas for future improvement
+    - Need to find a better way to fit the photos in the gallery. 
+    - Another improvement is to find a better way to align the project section of the website so that they are more inline.
+    - Another improvement idea is to create a more aesthetically pleasing Form page.

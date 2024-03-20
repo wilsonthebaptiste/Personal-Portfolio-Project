@@ -56,11 +56,20 @@ body {
     color:black;
 }
 
-.card-body {
-    background-color: blanchedalmond;
+#accordian_color2 {
+    color: black;
+}
+
+#accordian_color3 {
+    color: black;
 }
 
 #headingTwo {
+    background-color: rgb(193, 67, 67);
+    color: black;
+}
+
+#headingThree {
     background-color: rgb(193, 67, 67);
     color: black;
 }
@@ -79,6 +88,19 @@ margin-top: 25px;
     height: auto;
 }
 
+#project_container2{
+    background-color: rgb(193, 67, 67);
+    border-radius: 5px;
+    width: 800px;
+    height: auto;    
+}
+
+#project_container3{
+    background-color: rgb(193, 67, 67);
+    border-radius: 5px;
+    width: 800px;
+    height: auto;    
+}
 
 .project_title{
     text-align: center;
