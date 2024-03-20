@@ -1,3 +1,5 @@
+/* This is the general styling for all the pages */
+
 .nav-pills {
     background-color: rgb(193, 67, 67);
     border-radius: 5px;
@@ -20,6 +22,7 @@ body {
     font-family: 'Lucida Handwriting';
 }
 
+/*This is where the styling for the about me page begins */
 
 .About_me_title {
     margin-left: 20px;
@@ -60,4 +63,31 @@ body {
 #headingTwo {
     background-color: rgb(193, 67, 67);
     color: black;
+}
+
+
+/* This is where the styling unique to the projects page begins. */
+
+#project_1 {
+margin-top: 25px;
+}
+
+#project_container{
+    background-color: rgb(193, 67, 67);
+    border-radius: 5px;
+    width: 800px;
+    height: auto;
+}
+
+
+.project_title{
+    text-align: center;
+}
+
+#project_2 {
+    margin-top: 25px;
+}
+
+#project_3 {
+    margin-top: 25px;
 }
